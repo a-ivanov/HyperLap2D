@@ -136,7 +136,7 @@ public class SpriteAnimationAtlasAsset extends Asset {
             deleteAllSpriteAnimationsOfItem(compositeItemVO, spriteAnimationName);
         }
 
-        for (SceneVO scene : projectManager.currentProjectInfoVO.scenes) {
+        for (SceneVO scene : projectManager.getCurrentProjectInfoVO().scenes) {
             SceneVO loadedScene = resourceManager.getSceneVO(scene.sceneName);
             CompositeItemVO tmpVo = new CompositeItemVO(loadedScene.composite);
             deleteAllSpriteAnimationsOfItem(tmpVo, spriteAnimationName);

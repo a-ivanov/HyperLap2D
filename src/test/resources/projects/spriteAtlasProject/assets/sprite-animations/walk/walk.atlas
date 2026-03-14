@@ -1,0 +1,19 @@
+walk.png
+	size: 2, 2
+	format: RGBA8888
+	filter: Linear, Linear
+	repeat: none
+walk
+	rotate: false
+	xy: 0, 0
+	size: 1, 1
+	orig: 1, 1
+	offset: 0, 0
+	index: 0
+walk
+	rotate: false
+	xy: 1, 0
+	size: 1, 1
+	orig: 1, 1
+	offset: 0, 0
+	index: 1
